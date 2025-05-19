@@ -1,5 +1,11 @@
-import '../index.js'
-
+import { 
+  AtlanticCards, 
+  CentralCards, 
+  NorthWestCards, 
+  PacificCards, 
+  SouthEastCards, 
+  SouthWestCards 
+} from '../index.js';
 
 export default function TeamCards() {
     return (
