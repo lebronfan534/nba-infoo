@@ -1,7 +1,7 @@
 import teamsData from '../../data/team-data';
 
 
-export default function AtlanticCards() {
+export default function NorthWest() {
     return (
     <>        
         <h1 className="title"> Teams </h1>
