@@ -4,7 +4,7 @@ import teamsData from '../../data/team-data';
 export default function AtlanticCards() {
     return (
     <>        
-        <h1 className="title"> AtlanticTest </h1>
+        <h1 className="title"> Atlantic </h1>
             <div className="">
                 {teamsData.filter(teamsData => teamsData.division === "Atlantic").map(teamsData =>  (
                 <div key={teamsData.id} 
