@@ -1,4 +1,4 @@
-import TeamCards from "./components/team-info";
+import { TeamCards } from "./components"
 
 function App() {
   return (
