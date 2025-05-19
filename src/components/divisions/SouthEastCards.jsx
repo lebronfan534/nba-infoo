@@ -6,7 +6,7 @@ export default function AtlanticCards() {
     <>        
         <h1 className="title"> Teams </h1>
             <div className="">
-                {teamsData.filter(teamsData => teamsData.division === "Atlantic").map(teamsData =>  (
+                {teamsData.filter(teamsData => teamsData.division === "South East").map(teamsData =>  (
                 <div key={teamsData.id} 
                 className=
                 "" 
