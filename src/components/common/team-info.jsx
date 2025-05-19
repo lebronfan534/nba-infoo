@@ -1,10 +1,11 @@
-import AtlanticCards from './AtlanticCards';
 
-export default function teamCards() {
+import { AtlanticCards } from '../divisions';
+
+
+export default function TeamCards() {
     return (
-        <div className="" style={{ backgroundColor: 'black'}}> 
+        <div className="bg-black"> 
             <AtlanticCards />
         </div>
-    )
+    );
 }
-
