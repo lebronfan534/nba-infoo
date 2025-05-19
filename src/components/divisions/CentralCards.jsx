@@ -4,7 +4,7 @@ import teamsData from '../../data/team-data';
 export default function CentralCards() {
     return (
     <>        
-        <h1 className="title"> Teams </h1>
+        <h1 className="title">  </h1>
             <div className="">
                 {teamsData.filter(teamsData => teamsData.division === "Central").map(teamsData =>  (
                 <div key={teamsData.id} 

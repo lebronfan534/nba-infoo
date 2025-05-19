@@ -4,7 +4,7 @@ import teamsData from '../../data/team-data';
 export default function AtlanticCards() {
     return (
     <>        
-        <h1 className="title"> Teams </h1>
+        <h1 className="title"> Atlantic </h1>
             <div className="">
                 {teamsData.filter(teamsData => teamsData.division === "Atlantic").map(teamsData =>  (
                 <div key={teamsData.id} 
@@ -18,7 +18,7 @@ export default function AtlanticCards() {
                         <p className="team-divison"> Divison: {teamsData.division}  </p>
                         <p className="team-established">Established: {teamsData.established} </p>
                         <p className="team-Championships">Championships: {teamsData.championships} </p>
-                        <a className="team-roster"href={teamsData.roster}>Roster</a>
+                        <a className="team-roster"href={teamsData.roster}>Roster</a> 
                     </div>
                     <div className="team-colors">
                         <div
