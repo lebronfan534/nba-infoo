@@ -6,7 +6,7 @@ export default function NorthWestCards() {
     <>        
         <h1 className="title"> Teams </h1>
             <div className="">
-                {teamsData.filter(teamsData => teamsData.division === "North West").map(teamsData =>  (
+                {teamsData.filter(teamsData => teamsData.division === "Northwest").map(teamsData =>  (
                 <div key={teamsData.id} 
                 className=
                 "" 
