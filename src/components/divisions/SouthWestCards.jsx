@@ -6,7 +6,7 @@ export default function SouthWestCards() {
     <>        
         <h1 className="title"> Teams </h1>
             <div className="">
-                {teamsData.filter(teamsData => teamsData.division === "South West").map(teamsData =>  (
+                {teamsData.filter(teamsData => teamsData.division === "Southwest").map(teamsData =>  (
                 <div key={teamsData.id} 
                 className=
                 "" 
