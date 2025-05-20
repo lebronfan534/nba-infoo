@@ -29,7 +29,7 @@ export default function AtlanticCards() {
                         </div>
                         <div
                         className ="text-white 
-                        group-hover:opacity-100 transition-opacity duration-200 w " 
+                        group-hover:opacity-100 transition-opacity duration-200 " 
                         >
                             {teamsData.colors.primary} 
                         </div>
