@@ -37,7 +37,7 @@ export default function AtlanticCards() {
                         >
                         </div>
                         <div
-                        className=""
+                        className="rounded-full"
                         style={{ backgroundColor: teamsData.colors.quaternary, width:30, minHeight:30, }}
                         >
                         </div>
