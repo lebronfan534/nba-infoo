@@ -28,7 +28,7 @@ export default function AtlanticCards() {
                         >
                         </div>
                         <div
-                        className ="absolute bottom-full" 
+                        className ="absolute bottom-full left-1/2 transform -translate" 
                         >
                             {teamsData.colors.primary} 
                         </div>
