@@ -26,7 +26,7 @@ export default function AtlanticCards() {
                         className="rounded-full 
                         transition-transform hover:-translate-y-10 
                         transition-transform hover:translate-x-14 
-                        transition-scale hover: "
+                        transition-transform hover:scale- "
                         style={{  backgroundColor: teamsData.colors.primary, width:30, minHeight:30, }}
                         >
                         </div>
