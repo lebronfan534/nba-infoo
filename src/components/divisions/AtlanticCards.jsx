@@ -9,10 +9,10 @@ export default function AtlanticCards() {
                 {teamsData.filter(teamsData => teamsData.division === "Atlantic").map(teamsData =>  (
                 <div key={teamsData.id} 
                 className=
-                "" 
+                "py-4" 
                 >
                     
-                    <div className="font-mono font text-white py-4">
+                    <div className="font-mono font text-white ">
                         <img src={teamsData.logo} className="w-32 h-32 "></img>
                         <a href={teamsData.website} className="team-title">{teamsData.name} ({teamsData.abbreviation})</a>
                         <p className="team-conference">   Conference: {teamsData.conference}  </p>
