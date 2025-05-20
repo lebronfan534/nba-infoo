@@ -12,7 +12,7 @@ export default function AtlanticCards() {
                 "" 
                 >
                     
-                    <div style={{color: "#FFFFFF"}} className="font-mono flex gap-4">
+                    <div style={{color: "#FFFFFF"}} className="font-mono flex gap-1">
                         <img src={teamsData.logo} className="w-32 h-32 "></img>
                         <a href={teamsData.website} className="team-title">{teamsData.name} ({teamsData.abbreviation})</a>
                         <p className="team-conference">   Conference: {teamsData.conference}  </p>
