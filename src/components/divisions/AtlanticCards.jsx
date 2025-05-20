@@ -28,7 +28,8 @@ export default function AtlanticCards() {
                         >
                         </div>
                         <div
-                        className ="text-white absolute" 
+                        className ="text-white 
+                        group-hover:" 
                         >
                             {teamsData.colors.primary} 
                         </div>
