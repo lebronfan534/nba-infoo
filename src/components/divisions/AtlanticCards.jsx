@@ -56,6 +56,6 @@ export default function AtlanticCards() {
     )
 }
 
-function handleClick() {
-    
+function HandleClick() {
+
 }
