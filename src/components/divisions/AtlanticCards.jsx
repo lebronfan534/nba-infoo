@@ -22,7 +22,7 @@ export default function AtlanticCards() {
                         <a className=""href={teamsData.roster}>Roster</a> 
                     </div>
                     <div className="flex gap-2 ">
-                        <div                        className="rounded-full">
+                        <div className="rounded-full">
 
                         style={{  backgroundColor: teamsData.colors.primary, width:30, minHeight:30, }}
                         </div>
