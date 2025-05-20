@@ -20,7 +20,7 @@ export default function AtlanticCards() {
                         <p className="team-Championships">Championships: {teamsData.championships} </p>
                         <a className="team-roster"href={teamsData.roster}>Roster</a> 
                     </div>
-                    <div className="rounded-lg">
+                    <div className="rounded-lg ">
                         <div
                         className="color-box-primary"
                         style={{  backgroundColor: teamsData.colors.primary, width:30, minHeight:30, }}
