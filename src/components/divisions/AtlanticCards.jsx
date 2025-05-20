@@ -11,8 +11,9 @@ export default function AtlanticCards() {
                 className=
                 "" 
                 >
-                    <img src={teamsData.logo} className="w-32 h-32 "></img>
-                    <div style={{color: "#FFFFFF"}} className="font-mono flex gap-3">
+                    
+                    <div style={{color: "#FFFFFF"}} className="font-mono flex gap-4">
+                        <img src={teamsData.logo} className="w-32 h-32 "></img>
                         <a href={teamsData.website} className="team-title">{teamsData.name} ({teamsData.abbreviation})</a>
                         <p className="team-conference">   Conference: {teamsData.conference}  </p>
                         <p className="team-divison"> Divison: {teamsData.division}  </p>
