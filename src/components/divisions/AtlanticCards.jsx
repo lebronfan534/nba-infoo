@@ -22,7 +22,7 @@ export default function AtlanticCards() {
                     </div>
                     <div className="rounded-lg ">
                         <div
-                        className="rounded-full"
+                        className=""
                         style={{  backgroundColor: teamsData.colors.primary, width:30, minHeight:30, }}
                         >
                         </div>
@@ -32,12 +32,12 @@ export default function AtlanticCards() {
                         >
                         </div>
                         <div
-                        className="color-box-tertiary"
+                        className=""
                         style={{ backgroundColor: teamsData.colors.tertiary, width:30, minHeight:30,}}
                         >
                         </div>
                         <div
-                        className="color-box-quaternary"
+                        className=""
                         style={{ backgroundColor: teamsData.colors.quaternary, width:30, minHeight:30, }}
                         >
                         </div>
