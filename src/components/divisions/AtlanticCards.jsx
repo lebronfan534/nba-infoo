@@ -12,7 +12,7 @@ export default function AtlanticCards() {
                 "" 
                 >
                     
-                    <div className="font-mono font color-white">
+                    <div className="font-mono font text-white">
                         <img src={teamsData.logo} className="w-32 h-32 "></img>
                         <a href={teamsData.website} className="team-title">{teamsData.name} ({teamsData.abbreviation})</a>
                         <p className="team-conference">   Conference: {teamsData.conference}  </p>
