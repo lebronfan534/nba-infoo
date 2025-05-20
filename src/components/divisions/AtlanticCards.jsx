@@ -23,7 +23,7 @@ export default function AtlanticCards() {
                     <div className="team-colors">
                         <div
                         className="color-box-primary"
-                        style={{ backgroundColor: teamsData.colors.primary, width:30, minHeight:30,}}
+                        style={{ rou backgroundColor: teamsData.colors.primary, width:30, minHeight:30, }}
                         >
                         </div>
                         <div
