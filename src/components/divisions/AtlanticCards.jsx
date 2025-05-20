@@ -20,19 +20,19 @@ export default function AtlanticCards() {
                         <p className="team-Championships">Championships: {teamsData.championships} </p>
                         <a className="team-roster"href={teamsData.roster}>Roster</a> 
                     </div>
-                    <div className="rounded-lg ">
+                    <div className="">
                         <div
                         className="rounded-full"
                         style={{  backgroundColor: teamsData.colors.primary, width:30, minHeight:30, }}
                         >
                         </div>
                         <div
-                        className=""
+                        className="rounded-full"
                         style={{ backgroundColor: teamsData.colors.secondary, width:30, minHeight:30,}}
                         >
                         </div>
                         <div
-                        className=""
+                        className="rounded-full"
                         style={{ backgroundColor: teamsData.colors.tertiary, width:30, minHeight:30,}}
                         >
                         </div>
