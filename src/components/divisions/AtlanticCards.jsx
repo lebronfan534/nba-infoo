@@ -55,3 +55,7 @@ export default function AtlanticCards() {
     </>
     )
 }
+
+function handleClick() {
+    
+}
