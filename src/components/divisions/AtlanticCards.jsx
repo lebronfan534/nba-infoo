@@ -28,7 +28,7 @@ export default function AtlanticCards() {
                         >
                         </div>
                         <div
-                        className ="" 
+                        className ="text-white absolute" 
                         >
                             {teamsData.colors.primary} 
                         </div>
