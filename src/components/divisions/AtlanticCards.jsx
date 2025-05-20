@@ -28,7 +28,7 @@ export default function AtlanticCards() {
                         >
                         </div>
                         <div
-                        className ="text-white opacity-20 absolute
+                        className ="text-white opacity-20 absolute top-full
                         group-hover:opacity-100 transition-opacity duration-200 " 
                         >
                             {teamsData.colors.primary} 
