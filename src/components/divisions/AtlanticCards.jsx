@@ -27,7 +27,7 @@ export default function AtlanticCards() {
                         >
                         </div>
                         <div
-                        className="color-box-secondary"
+                        className=""
                         style={{ backgroundColor: teamsData.colors.secondary, width:30, minHeight:30,}}
                         >
                         </div>
