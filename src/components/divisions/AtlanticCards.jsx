@@ -23,12 +23,8 @@ export default function AtlanticCards() {
                     </div>
                     <div className="flex gap-2 ">
                         <div
-                        className="rounded-full 
-                        hover:scale-110"
-                        style={{  backgroundColor: teamsData.colors.primary, width:30, minHeight:30, 
-                            transition: 'transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1)',
-                            transform: 'translateZ(0)',
-                        }}
+                        className="rounded-full"
+                        style={{  backgroundColor: teamsData.colors.primary, width:30, minHeight:30, }}
                         >
                         </div>
                         <div
