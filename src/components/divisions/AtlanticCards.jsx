@@ -26,10 +26,10 @@ export default function AtlanticCards() {
                         className="rounded-full"
                         style={{  backgroundColor: teamsData.colors.primary, width:30, minHeight:30, }}
                         </div>
+                        <div> 
                         <div>
                         className="rounded-full"
                         style={{ backgroundColor: teamsData.colors.secondary, width:30, minHeight:30,}}
-                        >
                         </div>
                         <div
                         className="rounded-full"
